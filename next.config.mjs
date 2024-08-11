@@ -1,4 +1,3 @@
-import path from "path";
 const output = process.env.OUTPUT;
 
 /** @type {import('next').NextConfig} */
@@ -7,7 +6,7 @@ const nextConfig = {
   images: { unoptimized: output == "standalone" },
   sassOptions: {
     prependData: `@import "#a/styles/_mantine.scss";`,
-    includePaths: [path.join(import.meta.dirname, "aseets/styles")],
+    includePaths: ["./src/aseets/styles"],
   },
   experimental: {
     optimizePackageImports: ["@mantine/core", "@mantine/hooks"],
