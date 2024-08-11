@@ -1,0 +1,7 @@
+[
+  { "label": "Facebook", "icon": "mdi:facebook", "href": "https://fb.com/HimaPro.me" },
+  { "label": "Github", "icon": "mdi:github", "href": "https://github.com/Hima-Pro" },
+  { "label": "Whatsapp", "icon": "mdi:whatsapp", "href": "https://wa.me/79961027689" },
+  { "label": "Twitter (X)", "icon": "mdi:twitter", "href": "https://t.co/MegahedPro" },
+  { "label": "Telegram", "icon": "mdi:telegram", "href": "http://t.me/pro4us" }
+]
