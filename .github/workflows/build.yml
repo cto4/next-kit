@@ -9,9 +9,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build
-      uses: actions/setup-node@v4
-    - run: npm install
-    - run: npm run bundle --if-present
+      uses: oven-sh/setup-bun@v2
+    - run: bun install
+    - run: bun run bundle --if-present
     - run: |
         rm -rf dist;
         mv .next/standalone ./dist;
