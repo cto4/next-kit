@@ -11,7 +11,7 @@ jobs:
     - name: Build
       uses: oven-sh/setup-bun@v2
     - run: bun install
-    - run: bun run bundle --if-present
+    - run: bun run bundle
     - run: |
         rm -rf dist;
         mv .next/standalone ./dist;
